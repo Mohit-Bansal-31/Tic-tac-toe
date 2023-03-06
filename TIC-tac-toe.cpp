@@ -17,7 +17,7 @@ int main()
 {
 	char done = ' ';
 	char w[80];
-	char ch = '0';
+	char ch;
 	cout << "This is a simple Tic-Tac-Toe game.\n"
 		 << endl
 		 << "You will be playing against Computer(Single Player).\n"
@@ -25,7 +25,7 @@ int main()
 		 << "Here, the upper leftmost block is in row 1, column 1 and the bottom rightmost block is row 3,column 3.\n"
 		 << endl;
 	for (;;)
-	{
+	{       ch='0';
 		init();
 		cout << "You will have Cross Symbol(X) and Computer will have Nought Symbol(O).\n" << endl;
 		do
